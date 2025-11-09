@@ -65,7 +65,7 @@ TVector<ValType>::TVector(int s, int si)
 
     Size = s;
     StartIndex = si;
-    pVector = new ValType[Size];
+    pVector = new ValType[Size]();
 }
 
 template <class ValType>
